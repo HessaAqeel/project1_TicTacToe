@@ -9,9 +9,25 @@ color: #fff;
  margin-top: 30px;
  font-family: ' serif', Times;
 }
+
+
 h2{
-  color: red; 
+  color: #fff; 
   text-align: center;
+  font-size: 30px;
+
+}
+
+#tic2{
+  
+text-align: center;
+}
+p{
+  color: #fff; 
+  text-align: center;
+  font-size: 20px;
+  margin-top: 250px;
+
 }
 
 .container {
@@ -33,11 +49,7 @@ table{
 }
 
 
-
-
-
-
- tr,td{
+td {
   
   background-color:#fff;
   margin-left: 400px;
@@ -45,7 +57,11 @@ table{
   padding: 20px;
   height: 150px;
   width: 100px;
+  text-align: center;
+  font-size: 80px;
 }
+  
+
 
 button{
 
@@ -53,4 +69,13 @@ margin-left: 710px;
 margin-top: 20px;
 
 }
+
+
+a {
+  text-align: center;
+  font-size: 30px;
+  margin-left: 650px;
+  margin-top: 500px;
+}
+
 
