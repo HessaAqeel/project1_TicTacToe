@@ -1,8 +1,8 @@
 console.log("Test!");
 
 var gamer = 'X';
-var gamerX = 0;
-var gamerO = 0;
+//var gamerX = 0;
+//var gamerO = 0;
 
 
 function change1() {
@@ -82,9 +82,9 @@ function theWinner() {
 
 }
 
-function reset() {
-    $('td').text('');
-} // To enable the board to clear up after someone wins or after a toe 
+//function reset() {
+//  $('td').text('');} 
+// To enable the board to clear up after someone wins or after a toe 
 
 function stopUserClicks() {
 
