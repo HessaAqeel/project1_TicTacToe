@@ -4,9 +4,9 @@
 Tic Tac Toe is X and O game where both players take a turn to make a move and compete to win. It's a pretty easy game, and you can try out different schemes to win.
 
 
-![Game Board](/project1_TicTacToe/sc.png)
+![Game Board](sc.png)
 
- #Languages used: 
+ #Technologies used: 
  1. JavaScript 
  2. HTML 
  3. CSS 
@@ -34,8 +34,8 @@ After the game is finished, the user can press a button to reload the page and s
 
 #Acknowledgements: 
 
-Thanks to @mfalthaw for his positivity and support.
+Thanks to @mfalthaw for his positivity and support, and all our supportive instructors.
 
-A big thanks to @rawanah995 who helped to find a bug after I spent an entire day not knowing what was the problem. 
+A big thanks to [@rawanah995](https://github.com/rawanah995) who helped to find a bug after I spent an entire day not knowing what was the problem. 
 
 
