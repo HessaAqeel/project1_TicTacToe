@@ -1,8 +1,8 @@
 console.log("Test!");
 
 var gamer = 'X';
-//var gamerX = 0;
-//var gamerO = 0;
+var gamerX = 0;
+var gamerO = 0;
 
 
 function change1() {
@@ -32,46 +32,100 @@ function theWinner() {
     if (($('#td1').text() !== '') && ($('#td1').text() === $('#td2').text()) && ($('#td2').text() === $('#td3').text())) {
         $('h2').text($('#td3').text() + ' Wins ');
         stopUserClicks();
-        // if ($('#td3').text() === 'X') {
-        //      gamerX++
-        //  } else {
-        //     gamerO++
-        // }
+
+        if ($('#td3').text() === 'X') {
+            gamerX++
+            $('h4').text(gamerX++)
+        } else {
+            gamerO++
+            $('h4').text(gamerO++)
+        }
 
 
     } else if (($('#td4').text() !== '') && ($('#td4').text() === $('#td5').text()) && ($('#td5').text() === $('#td6').text())) {
         $('h2').text($('#td6').text() + ' Wins ');
-
         stopUserClicks();
 
+        if ($('#td6').text() === 'X') {
+            gamerX++
+            $('#id1').text(gamerX++)
+
+        } else if (('#td6').text() === 'O') {
+            gamerO++
+            $('#id2').text(gamerO++)
+        }
     } else if (($('#td7').text() !== '') && ($('#td7').text() === $('#td8').text()) && ($('#td8').text() === $('#td9').text())) {
         $('h2').text($('#td9').text() + ' Wins ');
 
         stopUserClicks();
+        if ($('#td9').text() === 'X') {
+            gamerX++
+            $('#id1').text(gamerX++)
 
+        } else if (('#td9').text() === 'O') {
+            gamerO++
+            $('#id2').text(gamerO++)
+        }
     } else if (($('#td1').text() !== '') && ($('#td1').text() === $('#td4').text()) && ($('#td4').text() === $('#td7').text())) {
         $('h2').text($('#td7').text() + ' Wins ');
 
         stopUserClicks();
+        if ($('#td7').text() === 'X') {
+            gamerX++
+            $('#id1').text(gamerX)++
 
+        } else if (('#td7').text() === 'O') {
+            gamerO++
+            $('#id2').text(gamerO++)
+        }
     } else if (($('#td2').text() !== '') && ($('#td2').text() === $('#td5').text()) && ($('#td5').text() === $('#td8').text())) {
         $('h2').text($('#td8').text() + ' Wins ');
 
         stopUserClicks();
+        if ($('#td8').text() === 'X') {
+            gamerX++
+            $('#id1').text(gamerX++)
 
+        } else if (('#td8').text() === 'O') {
+            gamerO++
+            $('#id2').text(gamerO++)
+        }
     } else if (($('#td3').text() !== '') && ($('#td3').text() === $('#td6').text()) && ($('#td6').text() === $('#td9').text())) {
         $('h2').text($('#td9').text() + ' Wins ');
 
         stopUserClicks();
+        if ($('#td9').text() === 'X') {
+            gamerX++
+            $('#id1').text(gamerX++)
 
+        } else if (('#td9').text() === 'O') {
+            gamerO++
+            $('#id2').text(gamerO++)
+        }
     } else if (($('#td5').text() !== '') && ($('#td1').text() === $('#td5').text()) && ($('#td5').text() === $('#td9').text())) {
         $('h2').text($('#td9').text() + ' Wins ');
 
         stopUserClicks();
+        if ($('#td9').text() === 'X') {
+            gamerX++
+            $('#id1').text(gamerX++)
+
+        } else if (('#td9').text() === 'O') {
+            gamerO++
+            $('#id2').text(gamerO++)
+        }
     } else if (($('#td5').text() !== '') && ($('#td3').text() === $('#td5').text()) && ($('#td5').text() === $('#td7').text())) {
         $('h2').text($('#td7').text() + ' Wins ');
 
         stopUserClicks();
+        if ($('#td7').text() === 'X') {
+            gamerX++
+            $('#id1').text(gamerX++)
+
+        } else if (('#td7').text() === 'O') {
+            gamerO++
+            $('#id2').text(gamerO++)
+        }
 
     } else if (($('#td1').text() !== '') && ($('#td2').text() !== '') && ($('#td3').text() !== '') && ($('#td4').text() !== '') && ($('#td5').text() !== '') && ($('#td6').text() !== '') && ($('#td7').text() !== '') && ($('#td8').text() !== '') && ($('#td9').text() !== '')) {
         $('h2').text(' Tie ');
@@ -82,8 +136,9 @@ function theWinner() {
 
 }
 
-//function reset() {
-//  $('td').text('');} 
+// function reset() {
+//     $('td').text('');
+// }
 // To enable the board to clear up after someone wins or after a toe 
 
 function stopUserClicks() {
