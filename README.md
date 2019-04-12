@@ -6,7 +6,7 @@ Tic Tac Toe is X and O game where both players take a turn to make a move and co
 
 ![Game Board](list.png)
 
-You can play my game [here](https://hessaaqeel.github.io/project1_TicTacToe/firstpg)
+You can play my game [here](https://hessaaqeel.github.io/project1_TicTacToe/)
 
  ## Technologies used: 
  1. JavaScript 

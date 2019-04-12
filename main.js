@@ -1,6 +1,8 @@
 console.log("Test!");
 
 var gamer = 'X';
+
+// Setting up the usre score 
 var gamerX = 0;
 var gamerO = 0;
 
@@ -13,7 +15,7 @@ function change1() {
     if (gamer === "O") {
         gamer = "X";
     } else if (gamer === "X") {
-        gamer = 'O';
+        gamer = "O";
 
         // } else { gamer = "X";
 
